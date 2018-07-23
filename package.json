@@ -1,0 +1,22 @@
+{
+  "name": "parallel-uglify-bug",
+  "version": "1.0.0",
+  "description": "Demonstration of bug with parallel uglification",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Thomas Luzat",
+    "email": "thomas@luzat.com",
+    "url": "https://luzat.com/"
+  },
+  "scripts": {
+    "bug-demo": "webpack"
+  },
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "terser": "^3.8.1",
+    "uglifyjs-webpack-plugin": "github:webpack-contrib/uglifyjs-webpack-plugin#0174605fdf7b0eb8dc3b18aaec262d1e757e6863",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
